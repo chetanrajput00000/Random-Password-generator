@@ -7,10 +7,10 @@ inputSlider.addEventListener("input", function () {
 });
 
 let passBox = document.getElementById("passBox");
-// let lowercase = document.getElementById("lowercase");
-// let uppercase = document.getElementById("uppercase");
-// let numbers = document.getElementById("numbers");
-// let symbols = document.getElementById("symbols");
+let lowercase = document.getElementById("lowercase");
+let uppercase = document.getElementById("uppercase");
+let numbers = document.getElementById("numbers");
+let symbols = document.getElementById("symbols");
 let Btn = document.getElementById("Btn");
 let copyIcon = document.getElementById("copyIcon")
 Btn.addEventListener("click", function () {
